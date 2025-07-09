@@ -1,0 +1,12 @@
+.container {
+    text-align: center;
+
+}
+
+.details {
+    padding: 5px;
+    border: 1px solid black;
+    width: 50%;
+    margin-left: 26%;
+    margin-top: 5%;
+}
