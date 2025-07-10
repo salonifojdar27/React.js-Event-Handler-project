@@ -1,12 +1,62 @@
 .container {
     text-align: center;
+}
+.container h1
+{
+    color:white;
+    font-size: 45px;
+}
 
+body {
+    text-align: center;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/044/541/737/small_2x/abstract-colorful-background-with-smooth-lines-abstraction-photo.jpeg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .details {
     padding: 5px;
     border: 1px solid black;
     width: 50%;
-    margin-left: 26%;
+    margin-left: 24%;
     margin-top: 5%;
+    background-color: white;
+    border-radius: 10px;
+}
+.details h4{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.details h3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.details p
+{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons button {
+    height: 40px;
+    width: 7%;
+    margin: 15px;
+    margin-top: 2%;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+}
+
+.buttons h2 {
+    font-size: 28px;
+    margin-top: 38px;
+    padding: 5px;
+  
 }
